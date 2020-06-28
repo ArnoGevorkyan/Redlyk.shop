@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+
+}
+}
+.BAR {
+    position: absolute;
+width: 100%x;
+height: 144px;
+}
+.BAR {
+
+    position: absolute;
+    width: 100%;
+    height: 144px;
+    left: 0px;
+    top: -2px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.25);
+}
+.REDLYK h1 {
+    position: absolute;
+    width: 214px;
+    height: 28px;
+    left: 45%;
+    top: 55px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 28px;
+    /* identical to box height, or 44% */
+    
+    text-align: center;
+    
+    color: #0029FF;   
+}
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #F5F5F5;
+}
+.icons1 {
+   /* MAIL */
+
+
+position: absolute;
+left: 6.04%;
+right: 91.93%;
+bottom: 44%;
+
+/* Light Text / Primary */
+
+background: #000000;
+}
+.icons2 {
+    /* CART */
+
+
+position: absolute;
+left: 92.08%;
+right: 5.9%;
+bottom: 44%;
+
+/* Light Text / Primary */
+
+background: #000000;
+}
+.poster1 {
+    position: absolute;
+    left: 7.76%;
+right: 70.13%;
+top: 19.07%;
+bottom: 31.94%;
+
+
+    
+    /* Elevation 8 dp */
+    
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.16), 0px 0px 4px rgba(0, 0, 0, 0.08);
+    weight: 424.47px;
+    height: 529px;
+}
+.poster2 {
+    position: absolute;
+    left: 38.9%;
+    right: 38.99%;
+    top: 19.07%;
+    bottom: 31.94%;
+box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.16), 0px 0px 4px rgba(0, 0, 0, 0.08);
+weight: 424.47px;
+height: 529px;
+}
+.poster3 {
+    position: absolute;
+    left: 70.1%;
+    right: 7.79%;
+    top: 19.07%;
+    bottom: 31.94%;
+ box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.16), 0px 0px 4px rgba(0, 0, 0, 0.08);
+    weight: 424.47px;
+    height: 529px;
+
+}
