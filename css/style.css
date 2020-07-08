@@ -82,6 +82,7 @@
 .MAIL:hover {
   transition: all 0.3s ease;
   fill: #0029ff;
+  cursor: pointer;
 }
 .MAIL {
   /* MAIL */
@@ -96,6 +97,7 @@
   color: #000000;
 }
 .CART:hover {
+  cursor: pointer;
   transition: all 0.3s ease;
   fill: #0029ff;
 }
