@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  list-style: none;
+  poster1-style: none;
   text-decoration: none;
 }
 
@@ -17,6 +17,7 @@
   background-color: #ffffff;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.25);
   transition: all 0.3s;
+  display: block;
 }
 .BAR:hover {
   box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
@@ -54,79 +55,7 @@
   background: #f5f5f5;
 }
 
-.poster1 {
-  position: absolute;
-  left: 7.76%;
-  right: 70.13%;
-  top: 19.07%;
-  bottom: 31.94%;
-  /* Elevation 8 dp */
-  width: 424.47px;
-  height: 529px;
-  box-shadow: 0px 1px 10px #000000;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  cursor: pointer;
-  border-radius: 5px;
-}
-.poster1:hover {
-  box-shadow: 0px 15px 25px -5px #0029ff;
-  -webkit-transform: scale(1.03);
-  transform: scale(1.03);
-}
-.poster1:active {
-  box-shadow: 0px 4px 8px #0029ff;
-  -webkit-transform: scale(0.98);
-  transform: scale(0.98);
-}
-.poster2 {
-  position: absolute;
-  left: 38.9%;
-  right: 38.99%;
-  top: 19.07%;
-  bottom: 31.94%;
-  width: 424.47px;
-  height: 529px;
-  box-shadow: 0px 1px 10px #000000;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  cursor: pointer;
-  border-radius: 5px;
-}
-.poster2:hover {
-  box-shadow: 0px 15px 25px -5px #0029ff;
-  -webkit-transform: scale(1.03);
-  transform: scale(1.03);
-}
-.poster2:active {
-  box-shadow: 0px 4px 8px #0029ff;
-  -webkit-transform: scale(0.98);
-  transform: scale(0.98);
-}
-.poster3 {
-  position: absolute;
-  left: 70.1%;
-  right: 7.79%;
-  top: 19.07%;
-  bottom: 31.94%;
-  width: 424.47px;
-  height: 529px;
-  box-shadow: 0px 1px 10px #000000;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  cursor: pointer;
-  border-radius: 5px;
-}
-.poster3:hover {
-  box-shadow: 0px 15px 25px -5px #0029ff;
-  -webkit-transform: scale(1.03);
-  transform: scale(1.03);
-}
-.poster3:active {
-  box-shadow: 0px 4px 8px #0029ff;
-  -webkit-transform: scale(0.98);
-  transform: scale(0.98);
-}
+
 .MAIL:active {
   -webkit-transform: scale(0.98);
   transform: scale(0.98);
@@ -154,6 +83,7 @@
   -webkit-transform: scale(1.33);
   transform: scale(1.33);
   fill: #0029ff;
+  writing-mode: ;
 }
 .CART:active {
   -webkit-transform: scale(0.98);
@@ -168,4 +98,247 @@
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   cursor: pointer;
+}
+.poster1 img {
+  position: absolute;
+  
+  /* Elevation 8 dp */
+  width: 424.47px;
+  height: 529px;
+  box-shadow: 0px 1px 10px #000000;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.poster1 img:hover {
+  box-shadow: 0px 15px 25px -5px #0029ff;
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+.poster1 img:active {
+  box-shadow: 0px 4px 8px #0029ff;
+  -webkit-transform: scale(0.98);
+  transform: scale(0.98);
+}
+
+.poster1 {
+ 
+  display: flex;
+  position: absolute;
+  left: 7.76%;
+  right: 70.13%;
+  top: 23.07%;
+  bottom: 31.94%;
+  /* Elevation 8 dp */
+  width: 424.47px;
+  height: 529px;
+}
+.poster1 li {
+  flex: 1;
+}
+.poster1 li a {
+  display: block;
+  overflow: hidden;
+  margin: -5rem;
+
+}
+.poster1 li a span {
+  display: block;
+  font-size: 22px;
+}
+
+@media (hover: hover) {
+  .poster1 li a span {
+   
+    transform: translateY(100px);
+    transition: 0.2s;
+  }
+  .poster1:hover span {
+    transform: translateY(0);
+  }
+ 
+.poster1 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.poster1 li {
+  flex: 1;
+}
+.poster1 li a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  font-size: 40px;
+}
+.poster1 li a span {
+  display: block;
+  padding: 0.5rem;
+  font-size: 22px;
+  margin-top: 1rem;
+}
+.poster2 img {
+  position: absolute;
+  
+  /* Elevation 8 dp */
+  width: 424.47px;
+  height: 529px;
+  box-shadow: 0px 1px 10px #000000;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.poster2 img:hover {
+  box-shadow: 0px 15px 25px -5px #0029ff;
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+.poster2 img:active {
+  box-shadow: 0px 4px 8px #0029ff;
+  -webkit-transform: scale(0.98);
+  transform: scale(0.98);
+}
+
+.poster2 {
+ 
+  display: flex;
+  position: absolute;
+   left: 38.9%;
+  right: 38.99%;
+  top: 23.07%;
+  bottom: 31.94%;
+  /* Elevation 8 dp */
+  width: 424.47px;
+  height: 529px;
+}
+.poster2 li {
+  flex: 1;
+}
+.poster2 li a {
+  display: block;
+  overflow: hidden;
+  margin: -5rem;
+
+}
+.poster2 li a span {
+  display: block;
+  font-size: 22px;
+}
+
+@media (hover: hover) {
+  .poster2 li a span {
+   
+    transform: translateY(100px);
+    transition: 0.2s;
+  }
+  .poster2:hover span {
+    transform: translateY(0);
+  }
+ 
+.poster2 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.poster2 li {
+  flex: 1;
+}
+.poster2 li a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  font-size: 40px;
+}
+.poster2 li a span {
+  display: block;
+  padding: 0.5rem;
+  font-size: 22px;
+  margin-top: 1rem;
+}
+.poster3 img {
+  position: absolute;
+  
+  /* Elevation 8 dp */
+  width: 424.47px;
+  height: 529px;
+  box-shadow: 0px 1px 10px #000000;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.poster3 img:hover {
+  box-shadow: 0px 15px 25px -5px #0029ff;
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+.poster3 img:active {
+  box-shadow: 0px 4px 8px #0029ff;
+  -webkit-transform: scale(0.98);
+  transform: scale(0.98);
+}
+
+.poster3 {
+ 
+  display: flex;
+  position: absolute;
+  left: 70.1%;
+  right: 7.79%;
+  top: 23.07%;
+  bottom: 31.94%;
+  /* Elevation 8 dp */
+  width: 424.47px;
+  height: 529px;
+}
+.poster3 li {
+  flex: 1;
+}
+.poster3 li a {
+  display: block;
+  overflow: hidden;
+  margin: -5rem;
+
+}
+.poster3 li a span {
+  display: block;
+  font-size: 22px;
+}
+
+@media (hover: hover) {
+  .poster3 li a span {
+   
+    transform: translateY(100px);
+    transition: 0.2s;
+  }
+  .poster3:hover span {
+    transform: translateY(0);
+  }
+ 
+.poster3 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.poster3 li {
+  flex: 1;
+}
+.poster3 li a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  font-size: 40px;
+}
+.poster3 li a span {
+  display: block;
+  padding: 0.5rem;
+  font-size: 22px;
+  margin-top: 1rem;
 }
